@@ -21,7 +21,7 @@ jobs:
       run: docker build -t ${{ secrets.DOCKER_USER }}/edge-api:latest .
 
     - name: Upload container to Docker Hub with Push
-      run: docker push ${{ secrets.DOCKER_USER }}/edge-bastion-api:latest
+      run: docker push ${{ secrets.DOCKER_USER }}/edge-api:latest
 
     - name: Logout from Docker Hub
       run: docker logout

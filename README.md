@@ -1,1 +1,5 @@
-# project4.0-edge-API
+# S2-FastAPI
+FastAPI used for communication between the two AI models (Anomaly detection, Asset Tracking)
+
+## Docker commands
+
